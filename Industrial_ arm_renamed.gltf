@@ -857,7 +857,7 @@
 		},
 		{
 			"mesh":22,
-			"name":"Body1.008",
+			"name":"[Interactable] 002",
 			"scale":[
 				10,
 				10,
@@ -873,7 +873,7 @@
 			"children":[
 				70
 			],
-			"name":"[Interactable] 002",
+			"name":"component",
 			"translation":[
 				-9.5367431640625e-06,
 				3.814697265625e-06,
