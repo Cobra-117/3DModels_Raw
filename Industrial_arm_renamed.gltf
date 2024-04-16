@@ -3,9 +3,6 @@
 		"generator":"Khronos glTF Blender I/O v4.1.62",
 		"version":"2.0"
 	},
-	"extensionsUsed":[
-		"KHR_materials_specular"
-	],
 	"scene":0,
 	"scenes":[
 		{
@@ -1649,118 +1646,6 @@
 			]
 		}
 	],
-	"materials":[
-		{
-			"doubleSided":true,
-			"extensions":{
-				"KHR_materials_specular":{
-					"specularColorFactor":[
-						2.0,
-						2.0,
-						2.0
-					]
-				}
-			},
-			"name":"Aluminum - Anodized Glossy (Grey)",
-			"pbrMetallicRoughness":{
-				"baseColorFactor":[
-					0.5372549295425415,
-					0.5372549295425415,
-					0.5372549295425415,
-					1
-				],
-				"roughnessFactor":0.5527864098548889
-			}
-		},
-		{
-			"doubleSided":true,
-			"extensions":{
-				"KHR_materials_specular":{
-					"specularColorFactor":[
-						2.0,
-						2.0,
-						2.0
-					]
-				}
-			},
-			"name":"Brass - Polished",
-			"pbrMetallicRoughness":{
-				"baseColorFactor":[
-					0.9529411792755127,
-					0.7960784435272217,
-					0.48627451062202454,
-					1
-				],
-				"roughnessFactor":0.5527864098548889
-			}
-		},
-		{
-			"doubleSided":true,
-			"extensions":{
-				"KHR_materials_specular":{
-					"specularColorFactor":[
-						2.0,
-						2.0,
-						2.0
-					]
-				}
-			},
-			"name":"Steel - Satin",
-			"pbrMetallicRoughness":{
-				"baseColorFactor":[
-					0.6274510025978088,
-					0.6274510025978088,
-					0.6274510025978088,
-					1
-				],
-				"roughnessFactor":0.5527864098548889
-			}
-		},
-		{
-			"doubleSided":true,
-			"extensions":{
-				"KHR_materials_specular":{
-					"specularColorFactor":[
-						2.0,
-						2.0,
-						2.0
-					]
-				}
-			},
-			"name":"Paint - Enamel Glossy (Yellow)",
-			"pbrMetallicRoughness":{
-				"baseColorFactor":[
-					0.9098039269447327,
-					0.6784313917160034,
-					0.13725490868091583,
-					1
-				],
-				"roughnessFactor":0.5527864098548889
-			}
-		},
-		{
-			"doubleSided":true,
-			"extensions":{
-				"KHR_materials_specular":{
-					"specularColorFactor":[
-						2.0,
-						2.0,
-						2.0
-					]
-				}
-			},
-			"name":"Paint - Enamel Glossy (Black)",
-			"pbrMetallicRoughness":{
-				"baseColorFactor":[
-					0.09803921729326248,
-					0.09803921729326248,
-					0.09803921729326248,
-					1
-				],
-				"roughnessFactor":0.5527864098548889
-			}
-		}
-	],
 	"meshes":[
 		{
 			"name":"Body1.001",
@@ -1771,8 +1656,7 @@
 						"NORMAL":1,
 						"TEXCOORD_0":2
 					},
-					"indices":3,
-					"material":0
+					"indices":3
 				}
 			]
 		},
@@ -1785,8 +1669,7 @@
 						"NORMAL":5,
 						"TEXCOORD_0":6
 					},
-					"indices":7,
-					"material":0
+					"indices":7
 				}
 			]
 		},
@@ -1799,8 +1682,7 @@
 						"NORMAL":9,
 						"TEXCOORD_0":10
 					},
-					"indices":3,
-					"material":0
+					"indices":3
 				}
 			]
 		},
@@ -1813,8 +1695,7 @@
 						"NORMAL":12,
 						"TEXCOORD_0":13
 					},
-					"indices":14,
-					"material":0
+					"indices":14
 				}
 			]
 		},
@@ -1827,8 +1708,7 @@
 						"NORMAL":16,
 						"TEXCOORD_0":17
 					},
-					"indices":18,
-					"material":1
+					"indices":18
 				}
 			]
 		},
@@ -1841,8 +1721,7 @@
 						"NORMAL":20,
 						"TEXCOORD_0":21
 					},
-					"indices":22,
-					"material":1
+					"indices":22
 				}
 			]
 		},
@@ -1855,8 +1734,7 @@
 						"NORMAL":24,
 						"TEXCOORD_0":25
 					},
-					"indices":26,
-					"material":1
+					"indices":26
 				}
 			]
 		},
@@ -1869,8 +1747,7 @@
 						"NORMAL":28,
 						"TEXCOORD_0":29
 					},
-					"indices":30,
-					"material":0
+					"indices":30
 				}
 			]
 		},
@@ -1883,8 +1760,7 @@
 						"NORMAL":32,
 						"TEXCOORD_0":33
 					},
-					"indices":34,
-					"material":0
+					"indices":34
 				}
 			]
 		},
@@ -1897,8 +1773,7 @@
 						"NORMAL":36,
 						"TEXCOORD_0":37
 					},
-					"indices":38,
-					"material":2
+					"indices":38
 				}
 			]
 		},
@@ -1911,8 +1786,7 @@
 						"NORMAL":40,
 						"TEXCOORD_0":41
 					},
-					"indices":42,
-					"material":2
+					"indices":42
 				}
 			]
 		},
@@ -1925,8 +1799,7 @@
 						"NORMAL":44,
 						"TEXCOORD_0":45
 					},
-					"indices":46,
-					"material":2
+					"indices":46
 				}
 			]
 		},
@@ -1939,8 +1812,7 @@
 						"NORMAL":48,
 						"TEXCOORD_0":49
 					},
-					"indices":42,
-					"material":2
+					"indices":42
 				}
 			]
 		},
@@ -1953,8 +1825,7 @@
 						"NORMAL":51,
 						"TEXCOORD_0":52
 					},
-					"indices":38,
-					"material":2
+					"indices":38
 				}
 			]
 		},
@@ -1967,8 +1838,7 @@
 						"NORMAL":54,
 						"TEXCOORD_0":55
 					},
-					"indices":42,
-					"material":2
+					"indices":42
 				}
 			]
 		},
@@ -1981,8 +1851,7 @@
 						"NORMAL":57,
 						"TEXCOORD_0":58
 					},
-					"indices":46,
-					"material":2
+					"indices":46
 				}
 			]
 		},
@@ -1995,8 +1864,7 @@
 						"NORMAL":60,
 						"TEXCOORD_0":61
 					},
-					"indices":46,
-					"material":2
+					"indices":46
 				}
 			]
 		},
@@ -2009,8 +1877,7 @@
 						"NORMAL":63,
 						"TEXCOORD_0":64
 					},
-					"indices":65,
-					"material":2
+					"indices":65
 				}
 			]
 		},
@@ -2023,8 +1890,7 @@
 						"NORMAL":67,
 						"TEXCOORD_0":68
 					},
-					"indices":65,
-					"material":2
+					"indices":65
 				}
 			]
 		},
@@ -2037,8 +1903,7 @@
 						"NORMAL":70,
 						"TEXCOORD_0":71
 					},
-					"indices":46,
-					"material":2
+					"indices":46
 				}
 			]
 		},
@@ -2051,8 +1916,7 @@
 						"NORMAL":73,
 						"TEXCOORD_0":74
 					},
-					"indices":46,
-					"material":2
+					"indices":46
 				}
 			]
 		},
@@ -2065,8 +1929,7 @@
 						"NORMAL":76,
 						"TEXCOORD_0":77
 					},
-					"indices":42,
-					"material":2
+					"indices":42
 				}
 			]
 		},
@@ -2079,8 +1942,7 @@
 						"NORMAL":79,
 						"TEXCOORD_0":80
 					},
-					"indices":81,
-					"material":3
+					"indices":81
 				}
 			]
 		},
@@ -2093,8 +1955,7 @@
 						"NORMAL":83,
 						"TEXCOORD_0":84
 					},
-					"indices":85,
-					"material":1
+					"indices":85
 				}
 			]
 		},
@@ -2107,8 +1968,7 @@
 						"NORMAL":87,
 						"TEXCOORD_0":88
 					},
-					"indices":89,
-					"material":1
+					"indices":89
 				}
 			]
 		},
@@ -2121,8 +1981,7 @@
 						"NORMAL":91,
 						"TEXCOORD_0":92
 					},
-					"indices":93,
-					"material":1
+					"indices":93
 				}
 			]
 		},
@@ -2135,8 +1994,7 @@
 						"NORMAL":95,
 						"TEXCOORD_0":96
 					},
-					"indices":97,
-					"material":4
+					"indices":97
 				}
 			]
 		},
@@ -2149,8 +2007,7 @@
 						"NORMAL":99,
 						"TEXCOORD_0":100
 					},
-					"indices":101,
-					"material":0
+					"indices":101
 				}
 			]
 		},
@@ -2163,8 +2020,7 @@
 						"NORMAL":103,
 						"TEXCOORD_0":104
 					},
-					"indices":105,
-					"material":2
+					"indices":105
 				}
 			]
 		},
@@ -2177,8 +2033,7 @@
 						"NORMAL":107,
 						"TEXCOORD_0":108
 					},
-					"indices":109,
-					"material":1
+					"indices":109
 				}
 			]
 		},
@@ -2191,8 +2046,7 @@
 						"NORMAL":111,
 						"TEXCOORD_0":112
 					},
-					"indices":113,
-					"material":1
+					"indices":113
 				}
 			]
 		},
@@ -2205,8 +2059,7 @@
 						"NORMAL":115,
 						"TEXCOORD_0":116
 					},
-					"indices":117,
-					"material":3
+					"indices":117
 				}
 			]
 		},
@@ -2219,8 +2072,7 @@
 						"NORMAL":119,
 						"TEXCOORD_0":120
 					},
-					"indices":121,
-					"material":1
+					"indices":121
 				}
 			]
 		},
@@ -2233,8 +2085,7 @@
 						"NORMAL":123,
 						"TEXCOORD_0":124
 					},
-					"indices":125,
-					"material":0
+					"indices":125
 				}
 			]
 		},
@@ -2247,8 +2098,7 @@
 						"NORMAL":127,
 						"TEXCOORD_0":128
 					},
-					"indices":129,
-					"material":0
+					"indices":129
 				}
 			]
 		}
@@ -4170,7 +4020,7 @@
 	"buffers":[
 		{
 			"byteLength":1691040,
-			"uri":"Industrial%20arm_renamed.bin"
+			"uri":"Industrial_arm_renamed.bin"
 		}
 	]
 }
