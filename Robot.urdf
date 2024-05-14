@@ -242,7 +242,7 @@
     <parent link="Component-1-Base:1" />
     <child link="Component-2-Jaw-1:1" />
     <anchor rotation="0 90 0" />
-    <xdrive damping="100" stifness="100" force limit="100" target="0"/>
+    <xdrive damping="100" stifness="100" force_limit="100" target="0"/>
     <limit lower="0" upper="0" effort="1000" velocity="1000" />
   </joint>
   <joint name="" type="fixed">
